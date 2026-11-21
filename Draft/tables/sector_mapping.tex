@@ -1,0 +1,21 @@
+\begin{table}[!htb]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{lll}
+\toprule
+\textbf{Hsiang sector} & \textbf{Model channel} & \textbf{Aggregation weight} \\
+\midrule
+Labour (avg.\ low- \& high-risk) & Wage $(\Delta w)$ & Income-weighted \\
+Agriculture (4 major crops) & Wage $(\Delta w)$, scaled by $s_\ell^{\text{agri}}$ & Income-weighted \\
+Coastal damages & Wage $(\Delta w)$ & Income-weighted \\
+\addlinespace
+Mortality (deaths / 100k) & Amenity $(\Delta A)$, via VSL & Population-weighted \\
+\addlinespace 
+Violent and Property crime (crime / 100k) & Amenity $(\Delta A)$, via VSC & Population-weighted \\
+Energy expenditures & Housing cost $(\Delta q)$ & Income-weighted \\
+\bottomrule
+\end{tabular}
+\caption{Mapping of the six Hsiang et al.\ (2017) damage sectors into the three model shock channels.}
+\label{tab:sector_mapping}
+\end{table}

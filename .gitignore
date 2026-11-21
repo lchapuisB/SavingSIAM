@@ -1,0 +1,34 @@
+# macOS & Editor metadata
+.DS_Store
+.Rhistory
+.vscode/
+.agents/
+.~lock.*
+
+# Large raw dataset (>100 MB GitHub file size limit; IPUMS CPS extract)
+Data/cps.csv.gz
+
+# External reference literature PDFs
+Article/
+
+# Unrelated files in Output/
+Output/GRE_Quantitative_19_Questions/
+Output/GRE_Quantitative_19_Questions.zip
+Output/GRE_Quantitative_19_Questions_Booklet.pdf
+
+# Large pre-computed MATLAB binary simulation files (~160 MB total)
+Output/**/*.mat
+
+# LaTeX build artifacts and scratch files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+Draft/DOCUMENT_TEXT_MAP.md
+Draft/scratch.py
+Presentation/fix_*.py

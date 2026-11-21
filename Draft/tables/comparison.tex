@@ -1,0 +1,43 @@
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{>{\raggedright}p{3.2cm}
+                >{\raggedright}p{5.0cm}
+                >{\raggedright\arraybackslash}p{5.4cm}}
+\toprule
+\textbf{Step} & \textbf{Dvorkin \& Greaney} & \textbf{My approach} \\
+\midrule
+Income process & Re-estimated with spatial selection correction
+               & Baseline taken from Table 9 \\
+\addlinespace
+Parameters & Re-estimated from microdata
+                & Calibrated via Moments matching \\
+\addlinespace
+Moving cost spec. & Residual with the amenities
+                  & Two-parameter: $\psi_{\text{fixed}} + \psi_{\text{dist}} \cdot \log(1 + d_{j\ell})$ \\
+\addlinespace
+Outer calibration & Analytic identification from log-mobility differences
+                  & \texttt{fsolve} (Gradient ascent) on 3 moments: mobility rate, avg.\ log-distance, $W/Y$ ratio \\
+\addlinespace
+Amenity identification & Residual with the migration costs
+                       & Contraction mapping on population share residuals \\
+\addlinespace
+Stationary distribution & --- & Matrix inversion $(I-T)^{-1}$, no iterative loop \\
+\addlinespace
+Equilibrium concept & Stationary (two SS compared)
+                    & Transition path + sequence of equilibria \\
+\addlinespace
+Dynamics & None (two SS)
+         & Backward VFI over time-varying wage path \\
+\addlinespace
+Climate & Not modelled
+        & Exogenous $(w_{\ell,t}, A_{\ell,t}, q_{\ell,t})$ and $\sigma^2_{\varepsilon,t}$  \\
+\addlinespace
+Geographic scale & 51 US states
+                 & 51 US states\\
+\bottomrule
+\end{tabular}
+\caption{Comparison of the Dvorkin \& Greaney (2025) strategy and the proposed thesis extensions.}
+\label{tab:comparison}
+\end{table}

@@ -1,0 +1,221 @@
+\begin{thebibliography}{31}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Balboni(2025)]{balboni_harms_2025}
+Clare Balboni.
+\newblock In harm's way? infrastructure investments and the persistence of coastal cities.
+\newblock \emph{American Economic Review}, 115\penalty0 (1):\penalty0 77--116, 2025.
+\newblock ISSN 0002-8282, 1944-7981.
+\newblock \doi{10.1257/aer.20191943}.
+\newblock URL \url{https://pubs.aeaweb.org/doi/10.1257/aer.20191943}.
+
+\bibitem[Berninghaus and Seifert-Vogt(1993)]{berninghaus_role_1993}
+Siegfried Berninghaus and Hans~Günther Seifert-Vogt.
+\newblock The role of the target saving motive in guest worker migration: A theoretical study.
+\newblock \emph{Journal of Economic Dynamics and Control}, 17\penalty0 (1):\penalty0 181--205, 1993.
+\newblock ISSN 0165-1889.
+\newblock \doi{10.1016/S0165-1889(06)80009-6}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S0165188906800096}.
+
+\bibitem[Bilal and Rossi-Hansberg(2021)]{bilal_location_2021}
+Adrien Bilal and Esteban Rossi-Hansberg.
+\newblock Location as an asset.
+\newblock \emph{Econometrica}, 89\penalty0 (5):\penalty0 2459--2495, 2021.
+\newblock ISSN 1468-0262.
+\newblock \doi{10.3982/ECTA16699}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA16699}.
+
+\bibitem[Bilal and Rossi-Hansberg(2026)]{bilal_anticipating_nodate}
+Adrien Bilal and Esteban Rossi-Hansberg.
+\newblock Anticipating climate change across the united states.
+\newblock \emph{Working Paper}, 2026.
+
+\bibitem[{Bureau of Economic Analysis}(2015)]{bea2015sagdp}
+{Bureau of Economic Analysis}.
+\newblock Regional economic accounts: Gross domestic product by state (sagdp2) and personal income (sainc1).
+\newblock Technical report, U.S. Department of Commerce, Washington, D.C., 2015.
+
+\bibitem[Burke et~al.(2015)Burke, Hsiang, and Miguel]{burke_global_2015}
+Marshall Burke, Solomon~M. Hsiang, and Edward Miguel.
+\newblock Global non-linear effect of temperature on economic production.
+\newblock \emph{Nature}, 527\penalty0 (7577):\penalty0 235--239, 2015.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature15725}.
+\newblock URL \url{https://www.nature.com/articles/nature15725}.
+
+\bibitem[Caballero(1990)]{caballero_consumption_1990}
+Ricardo~J. Caballero.
+\newblock Consumption puzzles and precautionary savings.
+\newblock \emph{Journal of Monetary Economics}, 25\penalty0 (1):\penalty0 113--136, 1990.
+\newblock ISSN 03043932.
+\newblock \doi{10.1016/0304-3932(90)90048-9}.
+\newblock URL \url{https://linkinghub.elsevier.com/retrieve/pii/0304393290900489}.
+
+\bibitem[Caliendo et~al.(2019)Caliendo, Dvorkin, and Parro]{caliendo_trade_2019}
+Lorenzo Caliendo, Maximiliano Dvorkin, and Fernando Parro.
+\newblock Trade and labor market dynamics: General equilibrium analysis of the china trade shock.
+\newblock \emph{Econometrica}, 87\penalty0 (3):\penalty0 741--835, 2019.
+\newblock ISSN 0012-9682.
+\newblock \doi{10.3982/ECTA13758}.
+\newblock URL \url{https://www.econometricsociety.org/doi/10.3982/ECTA13758}.
+
+\bibitem[Dennig et~al.(2015)Dennig, Budolfson, Fleurbaey, Siebert, and Socolow]{dennig_inequality_2015}
+Francis Dennig, Mark~B. Budolfson, Marc Fleurbaey, Asher Siebert, and Robert~H. Socolow.
+\newblock Inequality, climate impacts on the future poor, and carbon prices.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United States of America}, 112\penalty0 (52):\penalty0 15827--15832, 2015.
+\newblock ISSN 1091-6490.
+\newblock \doi{10.1073/pnas.1513967112}.
+
+\bibitem[Desmet and Parro(2025)]{desmet_spatial_2025}
+Klaus Desmet and Fernando Parro.
+\newblock Spatial dynamics.
+\newblock Working Paper 33443, National Bureau of Economic Research, 2025.
+\newblock URL \url{https://www.nber.org/papers/w33443}.
+
+\bibitem[Desmet and Rossi-Hansberg(2024)]{desmet_climate_2024}
+Klaus Desmet and Esteban Rossi-Hansberg.
+\newblock Climate change economics over time and space.
+\newblock \emph{Annual Review of Economics}, 16:\penalty0 271--304, 2024.
+\newblock ISSN 1941-1383, 1941-1391.
+\newblock \doi{10.1146/annurev-economics-072123-044449}.
+\newblock URL \url{https://www.annualreviews.org/content/journals/10.1146/annurev-economics-072123-044449}.
+
+\bibitem[Desmet et~al.(2018)Desmet, Nagy, and Rossi-Hansberg]{desmet_geography_2018}
+Klaus Desmet, Dávid~Krisztián Nagy, and Esteban Rossi-Hansberg.
+\newblock The geography of development.
+\newblock \emph{Journal of Political Economy}, 126\penalty0 (3):\penalty0 903--983, 2018.
+\newblock ISSN 0022-3808, 1537-534X.
+\newblock \doi{10.1086/697084}.
+\newblock URL \url{https://www.journals.uchicago.edu/doi/10.1086/697084}.
+
+\bibitem[Donald et~al.(2025)Donald, Fukui, and Miyauchi]{donald_optimal_2025}
+Eric Donald, Masao Fukui, and Yuhei Miyauchi.
+\newblock Optimal dynamic spatial policy, 2025.
+\newblock URL \url{https://www.nber.org/papers/w34290}.
+
+\bibitem[Dvorkin and Greaney(2025)]{dvorkin_geography_2025}
+Maximiliano~A. Dvorkin and Brian Greaney.
+\newblock The geography of wealth: shocks, mobility, and precautionary savings.
+\newblock \emph{Working Paper}, 2025.
+\newblock \doi{10.20955/wp.2024.033}.
+\newblock URL \url{https://s3.amazonaws.com/real.stlouisfed.org/wp/2024/2024-033.pdf}.
+
+\bibitem[Ehrlich and Becker(1972)]{ehrlich_market_1972}
+Isaac Ehrlich and Gary~S. Becker.
+\newblock Market insurance, self-insurance, and self-protection.
+\newblock \emph{Journal of Political Economy}, 80\penalty0 (4):\penalty0 623--648, 1972.
+\newblock ISSN 0022-3808.
+\newblock URL \url{https://www.jstor.org/stable/1829358}.
+
+\bibitem[{Federal Bureau of Investigation}(2015)]{fbi2015ucr}
+{Federal Bureau of Investigation}.
+\newblock Uniform crime reporting program: Offenses known to law enforcement, 2010--2015.
+\newblock Technical report, U.S. Department of Justice, Washington, D.C., 2015.
+
+\bibitem[Fried(2022)]{fried_seawalls_2022}
+Stephie Fried.
+\newblock Seawalls and stilts: A quantitative macro study of climate adaptation.
+\newblock \emph{The Review of Economic Studies}, 89\penalty0 (6):\penalty0 3303--3344, 2022.
+\newblock ISSN 0034-6527, 1467-937X.
+\newblock \doi{10.1093/restud/rdab099}.
+\newblock URL \url{https://academic.oup.com/restud/article/89/6/3303/6484653}.
+
+\bibitem[Giannone et~al.(2023)Giannone, Li, Paixao, and Pang]{giannone_unpacking_2023}
+Elisa Giannone, Qi~Li, Nuno Paixao, and Xinle Pang.
+\newblock Unpacking moving: A quantitative spatial equilibrium model with wealth.
+\newblock \emph{Bank of Canada Staff Working Paper}, 2023.
+\newblock \doi{10.34989/SWP-2023-34}.
+\newblock URL \url{https://www.bankofcanada.ca/2023/06/staff-working-paper-2023-34/}.
+
+\bibitem[Greaney et~al.(2025)Greaney, Parkhomenko, and Van~Nieuwerburgh]{greaney_dynamic_2025}
+Brian Greaney, Andrii Parkhomenko, and Stijn Van~Nieuwerburgh.
+\newblock Dynamic urban economics, 2025.
+
+\bibitem[Hsiang et~al.(2017)Hsiang, Kopp, Jina, Rising, Delgado, Mohan, Rasmussen, Muir-Wood, Wilson, Oppenheimer, Larsen, and Houser]{hsiang_estimating_2017}
+Solomon Hsiang, Robert Kopp, Amir Jina, James Rising, Michael Delgado, Shashank Mohan, D.~J. Rasmussen, Robert Muir-Wood, Paul Wilson, Michael Oppenheimer, Kate Larsen, and Trevor Houser.
+\newblock Estimating economic damage from climate change in the united states.
+\newblock \emph{Science}, 356\penalty0 (6345):\penalty0 1362--1369, 2017.
+\newblock \doi{10.1126/science.aal4369}.
+\newblock URL \url{https://www.science.org/doi/10.1126/science.aal4369}.
+
+\bibitem[{Internal Revenue Service}(2016)]{irs2016migration}
+{Internal Revenue Service}.
+\newblock State-to-state migration data user guide (tax years 2015--2016).
+\newblock Technical report, U.S. Department of the Treasury, Statistics of Income Division, Washington, D.C., 2016.
+\newblock URL \url{https://www.irs.gov/statistics/soi-tax-stats-migration-data}.
+
+\bibitem[{IPCC}(2023)]{lee_ipcc_2023}
+{IPCC}.
+\newblock Climate change 2023: Synthesis report. contribution of working groups i, {II} and {III} to the sixth assessment report of the intergovernmental panel on climate change.
+\newblock Technical report, {IPCC}, Geneva, Switzerland, 2023.
+\newblock URL \url{https://www.ipcc.ch/report/ar6/syr/}.
+\newblock Core Writing Team, H. Lee and J. Romero (eds.).
+
+\bibitem[Kennan and Walker(2011)]{kennan_effect_2011}
+John Kennan and James Walker.
+\newblock The effect of expected income on individual migration decisions.
+\newblock \emph{Econometrica}, 79\penalty0 (1):\penalty0 211--251, 2011.
+\newblock ISSN 0012-9682.
+\newblock \doi{10.3982/ECTA4657}.
+\newblock URL \url{http://doi.wiley.com/10.3982/ECTA4657}.
+
+\bibitem[Kleinman et~al.(2023)Kleinman, Liu, and Redding]{kleinman_dynamic_2023}
+Benny Kleinman, Ernest Liu, and Stephen~J. Redding.
+\newblock Dynamic spatial general equilibrium.
+\newblock \emph{Econometrica}, 91\penalty0 (2):\penalty0 385--424, 2023.
+\newblock ISSN 1468-0262.
+\newblock \doi{10.3982/ECTA20273}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA20273}.
+
+\bibitem[Krusell and Smith(2022)]{krusell_climate_2022}
+Per Krusell and Jr. Smith, Anthony~A.
+\newblock Climate change around the world, 2022.
+\newblock URL \url{https://www.nber.org/papers/w30338}.
+
+\bibitem[{McCollister} et~al.(2010){McCollister}, French, and Fang]{mccollister_cost_2010}
+Kathryn~E. {McCollister}, Michael~T. French, and Hai Fang.
+\newblock The cost of crime to society: New crime-specific estimates for policy and program evaluation.
+\newblock \emph{Drug and Alcohol Dependence}, 108\penalty0 (1):\penalty0 98--109, 2010.
+\newblock ISSN 03768716.
+\newblock \doi{10.1016/j.drugalcdep.2009.12.002}.
+\newblock URL \url{https://linkinghub.elsevier.com/retrieve/pii/S0376871609004220}.
+
+\bibitem[Nordhaus(1994)]{nordhaus_managing_1994}
+William~D. Nordhaus.
+\newblock \emph{Managing the Global Commons: The Economics of Climate Change}.
+\newblock {MIT} Press, 1994.
+\newblock ISBN 978-0-262-53746-9.
+
+\bibitem[Nordhaus and Yang(1996)]{nordhaus_regional_1996}
+William~D. Nordhaus and Zili Yang.
+\newblock A regional dynamic general-equilibrium model of alternative climate-change strategies.
+\newblock \emph{The American Economic Review}, 86\penalty0 (4):\penalty0 741--765, 1996.
+\newblock ISSN 0002-8282.
+\newblock URL \url{https://www.jstor.org/stable/2118303}.
+
+\bibitem[Solow(1956)]{solow_contribution_1956}
+Robert~M. Solow.
+\newblock A contribution to the theory of economic growth.
+\newblock \emph{The Quarterly Journal of Economics}, 70\penalty0 (1):\penalty0 65, 1956.
+\newblock ISSN 00335533.
+\newblock \doi{10.2307/1884513}.
+\newblock URL \url{https://academic.oup.com/qje/article-lookup/doi/10.2307/1884513}.
+
+\bibitem[Sun(2025)]{sun_wealth_2025}
+Jeﬀrey~E Sun.
+\newblock Wealth, expectations, and uncertainty.
+\newblock \emph{Working Paper}, 2025.
+
+\bibitem[Suss et~al.(2024)Suss, Kemeny, and Connor]{suss_geowealth-us_2024}
+Joel Suss, Tom Kemeny, and Dylan~S. Connor.
+\newblock {GEOWEALTH}-{US}: {Spatial} wealth inequality data for the {United} {States}, 1960--2020.
+\newblock \emph{Scientific Data}, 11\penalty0 (1):\penalty0 253, February 2024.
+\newblock ISSN 2052-4463.
+\newblock \doi{10.1038/s41597-024-03059-9}.
+\newblock URL \url{https://www.nature.com/articles/s41597-024-03059-9}.
+
+\end{thebibliography}

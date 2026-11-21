@@ -1,0 +1,34 @@
+\begin{table}[!htb]
+    \centering
+    \caption{Baseline Global Parameters}
+    \label{tab:baseline_params}
+    \begin{tabular}{llcc}
+        \toprule
+        \textbf{Description} & \textbf{Parameter} & \textbf{Value} & \textbf{Calibration} \\
+        \midrule
+        \multicolumn{4}{l}{\textbf{\textit{Preferences \& Demographics}}} \\
+        Discount factor & $\beta$ & $0.971$ & External \\
+        Absolute risk aversion (CARA) & $\gamma$ & $3.000$ & External \\
+        Per-period death rate & $\delta$ & $0.025$ & External \\ 
+        Newborn wealth & $a_0$ & $0.000$ & External \\
+        Migration elasticity (Weibull shape) & $\nu$ & $3.950$ & External \\
+        Preference shock scale parameter & $\bar{\lambda}$ & $0.371$ & Internal \\
+        \midrule
+        \multicolumn{4}{l}{\textbf{\textit{Income Process}}} \\
+        Autocorrelation of persistent shock & $\rho$ & $0.934$ & External \\
+        Shock variances & $\sigma_{\epsilon,\ell}^2$, $\sigma_{\eta,\ell}^2$ & Table \ref{tab:state_income_process} & External \\
+        \midrule
+        \multicolumn{4}{l}{\textbf{\textit{Spatial Economy \& Migration Costs}}} \\
+        Interest rate & $r$ & $0.030$ & External \\
+        Fixed migration cost & $\psi_{\text{fix}}$ & $1.633$ & Internal \\
+        Distance elasticity & $\psi_{\text{dist}}$ & $0.405$ & Internal \\
+        Local amenities & $A_\ell$ & Table \ref{tab:state_wages_amenities_wealth} & Internal \\
+        Local base wages & $w_\ell$ & Table \ref{tab:state_wages_amenities_wealth} & External \\
+        \bottomrule
+    \end{tabular}
+    
+    \vspace{0.2cm}
+    \begin{minipage}{0.9\textwidth}
+        \small \textbf{Note:} This table reports the structural parameters that are homogeneous across all locations. Parameters marked "External" are directly borrowed from the literature, while "Internal" refers to parameters jointly identified by targeting empirical aggregate moments (including the overall interstate migration rate, the average log-distance of moves, and the aggregate wealth-to-earnings ratio) alongside the inner-loop calibration of population shares. State-specific parameters are detailed in Tables \ref{tab:state_income_process} and \ref{tab:state_wages_amenities_wealth}.
+    \end{minipage}
+\end{table}

@@ -1,0 +1,34 @@
+
+\paragraph{IRS State-to-State Migration} Derived from the Internal Revenue Service (IRS) Statistics of Income (SOI) Division State-to-State Migration Data for Tax Years 2015--2016 \citep{irs2016migration}. The dataset represents administrative longitudinal tracking of U.S. household location choices, capturing approximately 95\%--98\% of tax-filing units by matching Social Security Numbers (SSNs) across consecutive calendar years 2015 and 2016.
+
+%\paragraph{USDA Natural Amenities Scale} Compiled from the USDA Economic Research Service (ERS) Natural Amenities Scale \citep{mcgranahan1999natural}. The scale combines six physical environmental attributes across 3,111 contiguous U.S. counties: (1) mean January temperature, (2) mean January hours of sunlight, (3) low July relative humidity, (4) low July heat moderation relative to January, (5) topographic variation code, and (6) log surface water area share. County natural amenity scores ($\text{nat\_amenity\_scale}_c \in \{1,\dots,7\}$) are joined with 1990 Decennial Census county population counts (\texttt{cencounts.csv}). The state-level natural amenity score is calculated as a population-weighted average:
+%\begin{equation}
+%\label{eq:pop_weighted_amenity}
+%\text{pop\_weighted\_amenity}_s = \frac{\sum_{c \in \mathcal{C}_s} \text{nat\_amenity\_scale}_c \cdot \text{pop1990}_c}{\sum_{c \in \mathcal{C}_s} \text{pop1990}_c}
+%\end{equation}
+%where $\mathcal{C}_s$ denotes the set of counties in state $s$, and $\text{pop1990}_c$ is county population in 1990.
+
+
+%\paragraph{NAEP Educational Performance Index.} Obtained from the National Centre for Education Statistics (NCES), Institute of Education Sciences, U.S. Department of Education \citep{nces2015naep}. The National Assessment of Educational Progress (NAEP), \textit{The Nation's Report Card}, provides representative public school student achievement scores for Grade 8 Mathematics and Grade 8 Reading. To isolate institutional public school quality from student socioeconomic background, the pipeline filters explicitly for students designated as \textbf{"Not eligible"} for the National School Lunch Program (NSLP). For both subjects, average scale scores $\bar{y}_{s,\text{math}}$ and $\bar{y}_{s,\text{reading}}$ are standardised across the 51 locations into z-scores:
+% \begin{align}
+%\label{eq:naep_z_scores}
+%\text{math\_z}_s &= \frac{\bar{y}_{s,\text{math}} - \mu_{\text{math}}}%{\sigma_{\text{math}}}, \quad \text{reading\_z}_s = \frac{\bar{y}_{s,\text{reading}} - \mu_{\text{reading}}}{\sigma_{\text{reading}}} \\[6pt]
+%\label{eq:edu_amenity_index}
+%u_{\text{edu}, s} &= \frac{\text{math\_z}_s + \text{reading\_z}_s}{2}
+%\end{align}
+
+
+%\paragraph{Fraser Institute Economic Freedom Index.} Institutional policy quality is measured using the Fraser Institute Economic Freedom of North America (EFNA) subnational index \citep{stansel2020economic, stansel2013economic}, which evaluates government spending, tax productivity, and labour market freedom (0--10 scale). Annual scores from 2005 to 2010 (\texttt{EconFreedom.csv}) are averaged by state and standardised to $u_{\text{freedom}, s}$. 
+
+\paragraph{BEA Agricultural Share.} Agricultural sectoral exposure $s_{\text{agri}, s}$ is derived from the Bureau of Economic Analysis (BEA) Regional Economic Accounts (SAGDP2 Gross Domestic Product by State) \citep{bea2015sagdp} by taking the 2010--2015 average ratio of Agricultural GDP (\texttt{LineCode == 3}) to Total GDP (\texttt{LineCode == 1}).
+
+\paragraph{FBI Uniform Crime Reporting Statistics.} Derived from the Federal Bureau of Investigation (FBI) Uniform Crime Reporting (UCR) Program \citep{fbi2015ucr}. Annual violent crime rates (homicide, rape, robbery, aggravated assault) and property crime rates (burglary, larceny-theft, motor vehicle theft) per 100,000 residents are averaged over 2010--2015 \citep{mccollister_cost_2010}. The baseline safety amenity score $u_{\text{crime}, s}$ is constructed as the inverse z-score of state violent crime rates.
+
+%\paragraph{Census CBP Urban Consumption Variety } Compiled from the U.S. Census Bureau County Business Patterns (CBP) 2015 dataset \citep{census2015cbp}. The CBP dataset provides administrative annual establishment counts and employment figures by subnational geographic unit and North American Industry Classification System (NAICS) industry codes. To capture local urban consumption variety and service-sector amenity availability, I filter establishment counts for two key consumer service sectors: NAICS 71 (Arts, Entertainment, and Recreation) and NAICS 72 (Accommodation and Food Services). The raw state-level variety share $s_{\text{variety}, s}$ is computed relative to total state establishments $N_{s, \text{NAICS 00}}$:
+
+
+%\paragraph{Census Experienced Population-Weighted Density.} Retrieved from the U.S. Census Bureau 2010 Decennial Census tract-level population counts and land area geometries \citep{census2010decennial, census2015cbp}. To avoid distortions caused by vast uninhabited land areas in Western states, I compute \textit{population-weighted experienced tract density} :
+
+\paragraph{CPS Outgoing Rotation Group (CPS-ORG).} To anchor the model's nominal values and calculate the national average annual income ($\bar{Y}_{\text{US}}$) required to monetise utility-equivalent amenity shocks, I use microdata from the Current Population Survey Outgoing Rotation Group (CPS-ORG) spanning 2010 to 2015. The sample is restricted to prime-age employed individuals (aged 25--60) with valid weekly earnings (\texttt{EARNWEEK2}). After trimming the top and bottom 1 per cent of the weekly earnings distribution to remove outliers, the national average weekly earnings are computed using the official CPS earnings weights (\texttt{EARNWT}) and annualised to obtain the national aggregate $\bar{Y}_{\text{US}}$.
+
+\paragraph{BEA State Personal Income and Energy Expenditures.} To construct the housing cost shock channel ($D^q_{\ell, t}$), which primarily captures the direct effect of climate change on energy demand, I utilise state-level data from the Bureau of Economic Analysis (BEA) Regional Economic Accounts. I compute the baseline energy expenditure share for each state by taking the ratio of total residential electricity expenditures to total state personal income for the year 2010. This state-specific energy share is then interacted with the county-level projected percentage changes in energy expenditures from \citet{hsiang_estimating_2017} to calculate the effective housing cost shock for each location.
